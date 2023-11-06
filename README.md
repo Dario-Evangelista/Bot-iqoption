@@ -22,25 +22,26 @@ Para executar este código, você precisará instalar as seguintes dependências
 Instale o pacote "websocket-client" com a versão 0.56:
 
 Copy code
+
 pip install websocket-client==0.56
+
 Instale a biblioteca "iqoptionapi" diretamente do GitHub. Você pode escolher entre duas opções:
 
-a. Usando o Git:
 
-arduino
-Copy code
 sudo pip install -U git+git://github.com/iqoptionapi/iqoptionapi.git
-b. Usando um arquivo zip do repositório do GitHub:
 
-ruby
-Copy code
+or
+
+
 pip install -U https://github.com/iqoptionapi/iqoptionapi/archive/refs/heads/master.zip
 Certifique-se de desinstalar qualquer versão anterior do pacote "websocket-client" usando o seguinte comando:
 
 Copy code
+
 sudo pip3 uninstall websocket-client
 Em seguida, reinstale a versão correta:
 
 Copy code
+
 sudo pip3 install websocket-client==0.56
 Com essas dependências instaladas, você estará pronto para usar o código de negociação automatizada.
