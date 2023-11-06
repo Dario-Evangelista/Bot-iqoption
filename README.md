@@ -16,3 +16,16 @@ Envio de mensagens via Telegram para notificar eventos importantes.
 Este código é bastante complexo e específico para negociações em um ambiente de opções, e ele parece usar uma lógica sofisticada para tomar decisões de negociação com base em análises de mercado. Note que a eficácia deste programa dependerá muito da qualidade da lógica de negociação e da precisão da análise de mercado.
 
 Certifique-se de entender completamente como o código funciona e como ele está configurado antes de usá-lo para negociações reais. Além disso, esteja ciente dos riscos associados à negociação financeira e considere procurar aconselhamento de um profissional financeiro antes de utilizar tal código em um ambiente de negociação real.
+
+dependências:
+pip install websocket-client==0.56
+
+sudo pip install -U git+git://github.com/iqoptionapi/iqoptionapi.git
+
+OR 
+
+pip install -U https://github.com/iqoptionapi/iqoptionapi/archive/refs/heads/master.zip
+
+sudo pip3 uninstall websocket-client
+sudo pip3 install websocket-client==0.56
+
