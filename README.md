@@ -16,6 +16,8 @@ g. Envia mensagens via Telegram para notificar eventos importantes.
 
 Este código é complexo e projetado para negociações específicas no mercado de opções. Ele utiliza lógica avançada para tomar decisões com base em análises de mercado. Lembre-se de compreender completamente o funcionamento do código e suas configurações antes de usá-lo em negociações reais. Além disso, esteja ciente dos riscos associados à negociação financeira e considere buscar aconselhamento de um profissional financeiro antes de usar o código em um ambiente de negociação real.
 
+ATENÇÃO ISSO É APENAS PARA FINS DE ESTUDOS, NÃO USE DINHEIRO.
+
 Dependências:
 Para executar este código, você precisará instalar as seguintes dependências:
 
